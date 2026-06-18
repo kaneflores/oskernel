@@ -10,5 +10,6 @@ loader.img: loader.o
 	truncate -s "%512" $@
 	rm -f kernel.img
 	dd if=/dev/zero of=kernel.img bs=1 count=512
+	
 loader.o: loader.asm
 	nasm $(flags) $<
