@@ -1,6 +1,6 @@
 ; stdio.h
 ; Change these two lines to switch to 16 bit version
-bits 16 //changed to 16 from 32 
+bits 16 //changed to 16 from 32 removed include folder
 %define sz  2	; bits/8
 ; ---
 
