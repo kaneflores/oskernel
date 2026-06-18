@@ -3,7 +3,7 @@ flags :=
 cflags :=
 ldflags :=
 
-# bootloader (focus on kernel, but focus on loading the kernel)
+# bootloader (focus on kernel, but focus on loading the kernel
 loader.img: loader.o
 	ld --script=loader.ld $< -o $@
 	chmod -x $@
