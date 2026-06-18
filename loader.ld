@@ -10,6 +10,8 @@ SECTIONS
 
     .data :
     {
-        
+        *(.data);
+        *(.bss);
+        *(.rodata);
     }
 }
